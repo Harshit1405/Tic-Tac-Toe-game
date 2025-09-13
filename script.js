@@ -35,10 +35,11 @@ function handleClick(el) {
 
 // })
 function reset() {
-    // 1. Array को साफ करें
+    // 1. Array ko clean krne ke liye
     arr = Array(9).fill(null);
 
-    // 2. सारे cells को खाली करें
+    // 2. pure cells ko khali krne ke liye
     for (let i = 0; i < 9; i++) {
         document.getElementById(i).innerText = "";
-    }}
+    }
+}

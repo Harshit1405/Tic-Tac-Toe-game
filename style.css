@@ -45,8 +45,8 @@
    cursor: pointer;
    transition: 0.2s ease;
    box-shadow: 2px 5px 8px rgb(73, 67, 67)
-   /* box-shadow: 0 4px 8px rgba(171, 152, 152, 0.1); */
-   /* border: 1px solid rgb(81, 75, 75); */
+     /* box-shadow: 0 4px 8px rgba(171, 152, 152, 0.1); */
+     /* border: 1px solid rgb(81, 75, 75); */
  }
 
  .col:hover {
@@ -78,5 +78,5 @@
  .rst:hover {
    background-color: #ff3300;
    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgb(255, 3, 3);
+   box-shadow: 0 8px 15px rgb(255, 3, 3);
  }
